@@ -3,7 +3,7 @@ const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-g
 async function visualizarInformacoesGlobais() {
     const res = await fetch(url)
     const dados = await res.json()
-    const pessoasConectadas = (dados.total_pessoas_conectadas/1e9)
+    const pessoasConectadas = (dados.total_pessoas_conectadas)
     const pessoasMundo = (dados.total_pessoas_mundo)
     const horas = parseInt(dados.tempo_medio)
     const minutos = Math.round((dados.tempo_medio - horas) *100)
