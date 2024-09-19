@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `A região Nordeste é a que concentra o maior número de localidades quilombolas no Brasil, com <span> ${pessoasMundo} </span> A região Sudeste vem em seguida, com <span> ${pessoasConectadas} quilombos </span> estão conectadas em alguma rede social e passam em média <span> ${horas} horas </span> e <span>${minutos} minutos </span> conectadas?<br>Isso significa que <span>${porcentagemConectada} % </span> de pessoas estão conectadas em alguma rede social `
+    paragrafo.innerHTML = `A região Nordeste é a que concentra o maior número de localidades quilombolas no Brasil, com <span> ${pessoasMundo} </span> A região Sudeste vem em seguida, com <span> ${pessoasConectadas} quilombos </span> As demais regiões têm os menores números: Norte <span> ${horas} horas </span> e <span>${minutos} minutos </span> conectadas?<br>Isso significa que <span>${porcentagemConectada} % </span> de pessoas estão conectadas em alguma rede social `
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
