@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(``)
+    incluirTexto(`aaaa`)
 }
 
 redesSociaisFavoritasMinhaEscola()
