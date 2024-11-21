@@ -5,8 +5,8 @@ async function redesFavoritasMundo() {
     "https://raw.githubusercontent.com/guilhermeonrails/api/main/redes-favoritas.json";
   const res = await fetch(url);
   const dados = await res.json();
-  const redes = Object.keys(dados);
-  const valores = Object.values(dados);
+  const redes = ['A','B','C',]
+  const valores = ['20','40','40',]
 
   // Criar o gráfico de pizza
   const data = [
