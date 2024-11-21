@@ -1,4 +1,4 @@
-import { getCSS, tickConfig } from "./common.js "
+import { getCSS, tickConfig, incluirTexto } from "./common.js "
 
 async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
@@ -53,6 +53,7 @@ async function quantidadeUsuarios() {
     grafico.className - 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data, layout)
+    incluirTexto(``)
 
 }
 
