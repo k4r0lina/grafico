@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Estados com mais Quilombos no Brasil',
+            text: 'Línguas faladas na África.',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
@@ -53,7 +53,8 @@ async function quantidadeUsuarios() {
     grafico.className - 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data, layout)
-    incluirTexto(`aaaaa`)
+    incluirTexto(`
+O continente africano é extremamente diverso em termos linguísticos, com um número impressionante de línguas e dialetos falados. A diversidade linguística da África é uma das maiores do mundo, e estima-se que haja mais de 2.000 línguas faladas no continente. Essas línguas podem ser agrupadas em várias famílias linguísticas, com algumas delas compartilhando características comuns. A seguir, apresento um índice das principais famílias linguísticas da África, bem como a distribuição aproximada das línguas faladas em cada uma delas.`)
 
 }
 
