@@ -20,8 +20,8 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-    const valores = Object.values(contagemRedesSociais)
-    const labels = Object.keys(contagemRedesSociais)
+    const valores =  ['10000','2000','100000','500000','30000']
+    const labels = ['Djembe','Mbira','Kora','Ngoni','Instrumentos de sopro']
 
     const data = [
         {
