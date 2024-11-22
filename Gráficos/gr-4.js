@@ -20,9 +20,8 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-    const valores = Object.values(contagemRedesSociais)
-    const labels = Object.keys(contagemRedesSociais)
-
+    const valores = ['40', '25', '20', '10', '5']
+    const labels = ['África Subsaariana (Ocidental e Central)', 'África do Norte', 'África do Sul', 'África Oriental', 'África Central']
     const data = [
         {
             values: valores,
@@ -54,7 +53,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(``)
+    incluirTexto(`A África é um continente vasto e diversificado, com diferentes níveis de riqueza econômica dependendo das regiões. O conceito de riqueza pode ser analisado de várias formas, como o Produto Interno Bruto (PIB), os recursos naturais, o desenvolvimento humano, e a distribuição de riqueza`)
 }
 
 redesSociaisFavoritasMinhaEscola()
