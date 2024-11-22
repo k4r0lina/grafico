@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Estados com mais Quilombos no Brasil',
+            text: 'Indice das religiões no continente africano.',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Regiões do Brasil',
+                text: 'Porcentagem.',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
