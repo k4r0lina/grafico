@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Regiões do Brasil',
+                text: 'Família Linguística.',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
