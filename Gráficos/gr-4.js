@@ -37,7 +37,7 @@ function processarDados(dados) {
         height: 700,
         title: {
             text: 'Regiões mais ricas do continente Africano.',
-            x: 0,
+            x: 10,
             font: {
                 color: getCSS('--primary-color'),
                 family: getCSS('--font'),
