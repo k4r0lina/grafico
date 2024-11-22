@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Porcentagem.',
+                text: 'Religiões.',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
@@ -40,7 +40,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Quantidades de Quilombos',
+                text: 'Porcentagem.',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
