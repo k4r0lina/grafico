@@ -20,8 +20,8 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-     const nomeDasRedes = ['Djembe','Mbira','Kora','Ngoni','Instrumentos de sopro']
-    const quantidadeUsuarios = ['10000','2000','100000','5']
+    const valores = ['Djembe','Mbira','Kora','Ngoni','Instrumentos de sopro']
+    const labels = ['10000','2000','100000','5']
 
     const data = [
         {
