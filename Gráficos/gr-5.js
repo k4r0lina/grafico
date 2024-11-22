@@ -53,9 +53,7 @@ async function quantidadeUsuarios() {
     grafico.className - 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data, layout)
-    incluirTexto(`A África é um continente de grande diversidade religiosa, com várias religiões praticadas em diferentes regiões. As religiões predominantes incluem o Cristianismo, o Islamismo, e as Religiões Tradicionais Africanas. Além disso, há uma presença significativa de Outras Religiões (como o Hinduísmo e o Judaísmo), particularmente em algumas áreas devido a influências externas e imigrantes.
-
-A seguir está um`)
+    incluirTexto(`A África é um continente de grande diversidade religiosa, com várias religiões praticadas em diferentes regiões. As religiões predominantes incluem o Cristianismo, o Islamismo, e as Religiões Tradicionais Africanas. Além disso, há uma presença significativa de Outras Religiões (como o Hinduísmo e o Judaísmo), particularmente em algumas áreas devido a influências externas e imigrantes.)
 
 }
 
