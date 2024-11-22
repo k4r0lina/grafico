@@ -21,7 +21,7 @@ function processarDados(dados) {
         return acc
     }, {})
      const nomeDasRedes = ['Djembe','Mbira','Kora','Ngoni','Instrumentos de sopro']
-    const quantidadeUsuarios = ['10000','2000','100000','5
+    const quantidadeUsuarios = ['10000','2000','100000','5']
 
     const data = [
         {
