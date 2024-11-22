@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(``)
+    incluirTexto(`Podemos analisar os intrumentos musicais mais usados e utilizados no continente Áfricano.`)
 }
 
 redesSociaisFavoritasMinhaEscola()
