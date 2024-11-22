@@ -53,7 +53,7 @@ async function quantidadeUsuarios() {
     grafico.className - 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data, layout)
-    incluirTexto(`aaaaaaaaaa`)
+    incluirTexto(`Observamos os logais do Brasil com mais quilombos.`)
 
 }
 
