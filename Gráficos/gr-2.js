@@ -53,7 +53,7 @@ async function quantidadeUsuarios() {
     grafico.className - 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     Plotly.newPlot(grafico, data, layout)
-    incluirTexto(`Podemos observamos o indice de racismo nos Estados do Brasil sendo casos a cada 100 mil habitantes.`)
+    incluirTexto(`Podemos observar o indice de racismo nos Estados do Brasil sendo casos a cada 100 mil habitantes.`)
 
 }
 
